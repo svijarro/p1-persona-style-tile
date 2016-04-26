@@ -3,19 +3,78 @@
 /***************/
 
 /* Color Palette */
+.color-1 {
+background: red;
+}
 
+.color-2 {
+ background: white;   
+}
+
+.color-3 {
+ background: blue;   
+}
 
 /* Textures or Patterns*/
+.pattern-1 {
+ background: url("http://i.ytimg.com/vi/4PoxUBBHHmA/maxresdefault.jpg")65% 35%;
+background-size: 100%;
+}
+
+.pattern-2 {
+ background: url("http://s3.amazonaws.com/shop-annarbortees/spree/products/000/000/257/product/open-uri20141208-14818-1guzyp9.?1418078249")65% 35%;
+background-size: 100%;
+}
+
+.pattern-3 {
+ background: url("http://i.huffpost.com/gen/3135960/images/n-EAGLENAUT-628x314.jpg")65% 35%;
+background-size: 100%;
+}
+
+
+
 
 
 /* Imagery */
 
 
 /* Icons */
-
+.icon-1 {
+ border: none;   
+}
 
 /* Navigation */
+nav li {
+ list-style: none;   
+}
 
+nav a:link {
+    color: blue;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
 
+nav a:hover {
+ color: red;   
+}
+
+button {
+    padding: 1em;
+    background: blue;
+    color: white;
+    border: red solid 5px;
+    border-radius: 10px;   
+}
 /* Typography */
+h1, h2 {
+    color: red;
+ font-family: 'Henny Penny', cursive;   
+}
 
+p {
+ font-family: 'Henny Penny', cursive;
+    font-size: 1.25em;
+    line-height: 1.25em;
+    letter-spacing: 2px;
+}
