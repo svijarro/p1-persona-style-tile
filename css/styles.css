@@ -4,21 +4,21 @@
 
 /* Color Palette */
 .color-1 {
-background: red;
+background: #7be3b1;
 }
 
 .color-2 {
- background: white;   
+ background: #e43f4d;   
 }
 
 .color-3 {
- background: blue;   
+ background: #262626;   
 }
 
 /* Textures or Patterns*/
 .pattern-1 {
- background: url("http://i.ytimg.com/vi/4PoxUBBHHmA/maxresdefault.jpg")65% 35%;
-background-size: 100%;
+ background: url("http://bgfons.com/upload/waves_texture2439.jpg")50% 50%;
+background-size: 200%;
 }
 
 .pattern-2 {
