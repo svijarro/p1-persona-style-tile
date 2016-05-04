@@ -4,35 +4,54 @@
 
 /* Color Palette */
 .color-1 {
-background: #7be3b1;
+background: #00b2b2;
 }
 
+
 .color-2 {
- background: #e43f4d;   
+ background: #00699c;   
 }
 
 .color-3 {
- background: #262626;   
+ background: #7f7f7f;   
+}
+
+.color-4 {
+ background: #4c4c4c;   
+}
+
+.color-5 {
+ background: #191919;   
 }
 
 /* Textures or Patterns*/
 .pattern-1 {
- background: url("http://bgfons.com/upload/waves_texture2439.jpg")50% 50%;
+ background: url("https://www.forms-surfaces.com/sites/default/files/bonded_quartz_dash%201200x800.jpg")50% 50%;
 background-size: 200%;
 }
 
+
 .pattern-2 {
- background: url("http://s3.amazonaws.com/shop-annarbortees/spree/products/000/000/257/product/open-uri20141208-14818-1guzyp9.?1418078249")65% 35%;
+ background: url("http://www.prettyunexpected.com/wp-content/uploads/2013/09/Knitted-pattern-grey.jpg")65% 35%;
 background-size: 100%;
 }
 
 .pattern-3 {
- background: url("http://i.huffpost.com/gen/3135960/images/n-EAGLENAUT-628x314.jpg")65% 35%;
+ background: url("http://static1.squarespace.com/static/5459ec52e4b04d305f68f1ed/t/548a9644e4b0a171f6b28d53/1418368582035/Pattern15.jpg")65% 35%;
 background-size: 100%;
 }
 
 
+.pattern-4 {
+ background: url("https://s-media-cache-ak0.pinimg.com/236x/13/72/84/1372846df93abb762495d54aee39039b.jpg")65% 35%;
+background-size: 100%;
+}
 
+
+.pattern-5 {
+ background: url("http://images.designtrends.com/wp-content/uploads/2015/12/15053549/Abstract-Grey-Background.png")65% 35%;
+background-size: 100%;
+}
 
 
 /* Imagery */
@@ -45,35 +64,54 @@ background-size: 100%;
 
 /* Navigation */
 nav li {
- list-style: none;   
+ list-style: none;
+
 }
 
 nav a:link {
-    color: blue;
-    letter-spacing: 2px;
+    color: #191919;
     text-decoration: none;
     text-transform: uppercase;
 }
 
 nav a:hover {
- color: red;   
+ color: #00b2b2;   
 }
 
 button {
-    padding: 1em;
-    background: blue;
+    padding: .5em;
+    background: #00b2b2;
     color: white;
-    border: red solid 5px;
-    border-radius: 10px;   
+    border: #00b2b2 solid 5px;
+    border-radius: 5px;   
+    font-family: 'Oswald', sans-serif;
 }
 /* Typography */
-h1, h2 {
-    color: red;
- font-family: 'Henny Penny', cursive;   
+h1 {
+     color: white;
+     font-family: 'Oswald', sans-serif;
+    text-align: left;
+   background: #00b2b2;
+    padding: 1em;
+    background: #00b2b2;
+    color: white;
+    border: #00b2b2 solid 5px;
+    border-radius: 10px; 
+}
+h2 {
+    color: #00b2b2;
+     font-family: 'Oswald', sans-serif;
+    font-weight: 100;
 }
 
+h3 {
+    color: #191919;
+     font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+}
 p {
- font-family: 'Henny Penny', cursive;
+ font-family: 'Merriweather', serif;
+    color: #191919;
     font-size: 1.25em;
     line-height: 1.25em;
     letter-spacing: 2px;
